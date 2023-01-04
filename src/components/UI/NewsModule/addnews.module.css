@@ -1,0 +1,173 @@
+.list {
+  height: 800px;
+  width: 230px;
+  background-image: linear-gradient(
+    rgba(22, 219, 101, 1),
+    rgba(158, 240, 26, 1) 75%
+  );
+  text-align: center;
+}
+.content {
+  height: 745px;
+}
+.avamini {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+
+  z-index: 2;
+}
+.but {
+  /* opacity: 0; */
+  border: none;
+  background-color: white;
+  position: relative;
+  top: 18px;
+  left: 1175px;
+}
+.dropava {
+  border: 1px solid black;
+  /* height: 155px; */
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  z-index: 5;
+  background-color: white;
+  position: absolute;
+  top: 62px;
+  left: -50px;
+  border-radius: 10px;
+  padding: 5px 0px 5px 0px;
+}
+.dropava0 {
+  padding: 10px 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.dropava0:hover {
+  background-color: rgba(153, 239, 169, 0.33);
+  cursor: pointer;
+}
+.avamini1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.title {
+  height: 100px;
+  width: 1265px;
+}
+.title1 {
+  position: absolute;
+  left: 255px;
+  top: 45px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.text {
+  margin-left: 26px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(217, 217, 217, 0.15);
+}
+.tableform {
+  border-spacing: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 18px;
+}
+.maxtd {
+  max-width: 964px;
+}
+.input {
+  width: 950px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.input1 {
+  width: 950px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.input2 {
+  width: 950px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.p {
+  color: red;
+  font-size: 12px;
+}
+.buttonsub {
+  width: 1242px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 26px;
+  margin-top: 50px;
+}
+.buttonsub1 {
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 109, 58, 1);
+  border-radius: 20px;
+  color: rgba(0, 109, 58, 1);
+}
+.buttonsub2 {
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgba(255, 195, 0, 1);
+  border: 0px solid rgba(0, 109, 58, 1);
+  border-radius: 20px;
+  color: white;
+}
+.buttonsub3 {
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgba(22, 219, 101, 1);
+  border: 0px solid rgba(0, 109, 58, 1);
+  border-radius: 20px;
+  color: white;
+}
+.buttonsub1:hover {
+  background-color: rgba(153, 239, 169, 0.33);
+  cursor: pointer;
+}
+.buttonsub2:hover {
+  background-color: rgba(255, 195, 0, 0.69);
+  cursor: pointer;
+}
+.buttonsub3:hover {
+  background-color: rgba(22, 219, 101, 0.69);
+  cursor: pointer;
+}

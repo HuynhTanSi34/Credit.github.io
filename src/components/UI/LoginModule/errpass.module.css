@@ -1,0 +1,100 @@
+.under {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 843px;
+  height: 740px;
+}
+.logoin {
+  width: 930px;
+  height: 740px;
+}
+.form {
+  width: auto;
+  height: 545px;
+  padding: 200px 60px 0px 60px;
+  margin-left: 100px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.user,
+.pass {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.use,
+.pas {
+  width: 350px;
+  height: 38px;
+  border-radius: 18px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+.nameinput {
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+  text-align: left;
+}
+.wrong {
+  text-align: left;
+  margin: 0px 0px 0px 15px;
+  padding-bottom: 10px;
+  color: red;
+}
+.savepass {
+  margin-left: 10px;
+  text-align: left;
+}
+.forgot {
+  margin: 10px 0px 0px 25px;
+  color: red;
+  text-align: left;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.submit1 {
+  width: 185px;
+  height: 55px;
+  background-color: rgba(13, 148, 245, 1);
+  color: white;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.ts {
+  position: relative;
+  top: -39px;
+}
+.submit1::before {
+  content: "";
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  -webkit-transform: scaleX(0.3);
+  transform: scaleX(0.3);
+  opacity: 0;
+  transition: all 0.3s;
+}
+.submit1:hover::before {
+  opacity: 1;
+  background-color: white;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02),
+    opacity 0.4s;
+  transition: transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity;
+}
+.submit1:hover {
+  color: rgba(13, 148, 245, 1);
+}
